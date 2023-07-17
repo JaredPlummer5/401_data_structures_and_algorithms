@@ -3,7 +3,14 @@ namespace CodeChallenges
     public class LinkedList
     {
         public Node Head;
-        public void AddNewNode(Node node)
+
+
+    //public LinkedList()
+    //{
+    //  Head = null;
+    //}
+
+    public void AddNewNode(Node node)
         {
             node.Next = Head;
             Head = node;
