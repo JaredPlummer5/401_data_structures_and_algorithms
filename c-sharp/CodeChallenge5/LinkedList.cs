@@ -7,11 +7,15 @@ namespace CodeChallenges
     public Node? Next { get; set; }
     public int Value { get; set; }
 
+  
+
+    public Node Last { get; set; }
+
     public Node(int value)
     {
       Value = value;
       Next = null;
-      
+      Last = null;
     }
   }
 
@@ -20,6 +24,10 @@ namespace CodeChallenges
 
   {
     public Node? Head { get; set; }
+
+    public Node Tail { get; set; }
+    //Miles "Tails" Prower
+    public Node CurrentNode { get; set; }
 
     public LinkedList()
     {
