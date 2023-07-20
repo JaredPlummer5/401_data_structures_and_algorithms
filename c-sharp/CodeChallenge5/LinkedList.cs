@@ -7,7 +7,7 @@ namespace CodeChallenges
     public Node? Next { get; set; }
     public int Value { get; set; }
 
-  
+
 
     public Node Last { get; set; }
 
@@ -43,7 +43,7 @@ namespace CodeChallenges
       {
 
         Head = newNode;
-    
+
       }
       else
       {
@@ -58,21 +58,21 @@ namespace CodeChallenges
 
     }
 
-  public bool Includes(int value)
-  {
-    bool foundValue = false;
+    public bool Includes(int value)
+    {
+      bool foundValue = false;
       Node currentNode = Head;
-      while(currentNode != null)
+      while (currentNode != null)
       {
-        if(currentNode.Value == value)
+        if (currentNode.Value == value)
         {
           foundValue = true;
 
         }
         currentNode = currentNode.Next;
       }
-    return foundValue;
-  }
+      return foundValue;
+    }
 
 
     public string ToString()
@@ -88,14 +88,12 @@ namespace CodeChallenges
 
       return listString + "NULL";
     }
-<<<<<<< HEAD
 
-}
-=======
+
+
+
+
   }
-
-
 }
 
 
->>>>>>> refs/remotes/origin/main
