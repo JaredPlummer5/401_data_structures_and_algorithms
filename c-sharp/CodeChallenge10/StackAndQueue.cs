@@ -47,6 +47,9 @@ namespace CodeChallenges
       Top = newNode;
 
     }
+
+
+
     public bool IsEmpty()
     {
       if (Top == null)
@@ -58,6 +61,9 @@ namespace CodeChallenges
         return false;
       }
     }
+
+
+
     public int Pop()
     {
 
