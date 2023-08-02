@@ -32,6 +32,7 @@ namespace CodeChallenges
 
     public LinkedList()
     {
+
       Head = null;
     }
 
@@ -44,6 +45,7 @@ namespace CodeChallenges
       {
 
         Head = newNode;
+
 
       }
       else

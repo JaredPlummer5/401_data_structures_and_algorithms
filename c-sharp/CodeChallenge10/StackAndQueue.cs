@@ -112,8 +112,10 @@ namespace CodeChallenges
     public Node Back { get; set; }
     public Queue()
     {
+
       Front = null;
       Back = null;
+
 
     }
 
@@ -171,6 +173,7 @@ namespace CodeChallenges
 
     public bool IsEmpty()
     {
+
       if (Front == null)
       {
         return false;
@@ -179,6 +182,7 @@ namespace CodeChallenges
       {
         return true;
       }
+
     }
   }
 }
