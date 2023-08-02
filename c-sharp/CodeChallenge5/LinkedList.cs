@@ -13,6 +13,7 @@ namespace CodeChallenges
 
     public Node(int value)
     {
+
       Value = value;
       Next = null;
       Last = null;
@@ -52,7 +53,6 @@ namespace CodeChallenges
         Head = newNode;
 
       }
-
 
 
 

@@ -11,6 +11,7 @@ namespace CodeChallenges
 
     public Node(int value)
     {
+
       Value = value;
       Next = null;
     }
@@ -32,6 +33,7 @@ namespace CodeChallenges
     {
       Top = null;
 
+
     }
 
 
@@ -52,6 +54,7 @@ namespace CodeChallenges
 
     public bool IsEmpty()
     {
+
       if (Top == null)
       {
         return true;
@@ -60,6 +63,7 @@ namespace CodeChallenges
       {
         return false;
       }
+
     }
 
 
